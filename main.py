@@ -2,7 +2,7 @@ from PIL import Image
 from imghdr import what
 
 def main():
-    # TODO MAKE AVAILABLE FOR USER INPUT BY USING ARGS
+    # User inputs image via file path
     print("Usage: 'filename.png' if in the same folder or 'directory/filename.png'")
     user_input = input("Enter a PNG image's path: ")
 
